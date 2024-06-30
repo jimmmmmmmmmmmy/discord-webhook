@@ -8,8 +8,6 @@ Sending messages, embeds, and files to Discord channels via webhooks
 
 ## Usage
 
-Here's a quick example of how to use DiscordWebhookPlus:
-
 ```python
 from discord_webhook import DiscordWebhook
 
