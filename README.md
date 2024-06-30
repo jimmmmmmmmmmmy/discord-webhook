@@ -32,32 +32,32 @@ Here's a quick example of how to use DiscordWebhookPlus:
 ```python
 from discord_webhook import DiscordWebhook
 
-# Initialize the webhook with your Discord webhook URL
-webhook = DiscordWebhook("YOUR_WEBHOOK_URL_HERE")
+webhook_url = "__test_webhook_url__"
+webhook = DiscordWebhook(webhook_url)
 
-# Send a simple message
+# Simple message
 webhook.send_message("Hello, Discord!")
 
-# Send a message with a custom username
-webhook.send_message("Custom username message", username="Custom Bot")
+# Message with custom username
+webhook.send_message("Custom username message", username="Custom Username")
 
-# Send a message with an embed
+# Message with embed
 embed = {
-    "description": "This is an embed",
-    "title": "Embed Title"
+    "description": "This is testing an embed",
+    "title": "Test title"
 }
-webhook.send_message("Message with embed", embeds=[embed])
+webhook.send_message("Test message with embed", embeds=[embed])
 
-# Send a message with a file attachment
-webhook.send_message("Message with file", file_path="path/to/your/file.png")
+# Message with file
+webhook.send_message("Test message with image", file_path ="new "
+                                                           "project.png")
 
-# Send a message with a resized image
-webhook.send_message("Resized image", file_path="path/to/your/image.png", file_size=(300, 200))
-
-# Send a message with everything
-webhook.send_message("Full featured message",
-                     username="Full Feature Bot",
+# Message with everything
+webhook.send_message("Full featured test message",
+                     username="Full Feature Test Bot",
                      embeds=[embed],
-                     file_path="path/to/your/image.png")
-                     
+                     file_path="new project.png")
 ```
+
+![Screenshot 2024-06-29 at 9 44 01 PM](https://github.com/jimmmmmmmmmmmy/discord-webhook/assets/143036559/54a0ea94-397c-49bc-a15a-3e26d9f65f87)
+
