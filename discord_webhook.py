@@ -63,24 +63,24 @@ if __name__ == "__main__":
     webhook_url = "__test_webhook_url__"
     webhook = DiscordWebhook(webhook_url)
 
-    # simple message
+    # Simple message
     webhook.send_message("Hello, Discord!")
 
-    # message with custom username
+    # Message with custom username
     webhook.send_message("Custom username message", username="Custom Username")
 
-    # message with embed
+    # Message with embed
     embed = {
         "description": "This is testing an embed",
         "title": "Test title"
     }
     webhook.send_message("Test message with embed", embeds=[embed])
 
-    # message with file
+    # Message with file
     webhook.send_message("Test message with image", file_path ="new "
                                                                "project.png")
 
-    # message with everything
+    # Message with everything
     webhook.send_message("Full featured test message",
                          username="Full Feature Test Bot",
                          embeds=[embed],
