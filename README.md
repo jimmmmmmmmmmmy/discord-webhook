@@ -1,6 +1,6 @@
-# DiscordWebhookPlus: Enhanced Discord Webhook Sender
+# Discord Webhook Sender
 
-DiscordWebhookPlus is a Python class that provides an easy-to-use interface for sending messages, embeds, and files to Discord channels via webhooks. It offers additional features like custom usernames and image resizing.
+This is a Python class that provides an easy-to-use interface for sending messages, embeds, and files to Discord channels via webhooks.
 
 ## Features
 
