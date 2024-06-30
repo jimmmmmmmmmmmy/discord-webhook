@@ -1,29 +1,10 @@
 # Discord Webhook Sender
 
-This is a Python class that provides an easy-to-use interface for sending messages, embeds, and files to Discord channels via webhooks.
+Sending messages, embeds, and files to Discord channels via webhooks
 
-## Features
+## Required Modules: 
 
-- Send simple text messages
-- Add custom usernames to messages
-- Include embeds in your messages
-- Attach files to your messages
-- Resize images before sending (requires PIL)
-- Error handling for file operations and HTTP requests
-
-## Requirements
-
-- Python 3.6+
 - `requests` library
-
-## Installation
-
-1. Clone this repository or download the `discord_webhook.py` file.
-2. Install the required libraries:
-
-```
-pip install requests
-```
 
 ## Usage
 
